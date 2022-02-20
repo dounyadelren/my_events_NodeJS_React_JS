@@ -1,0 +1,49 @@
+@media screen and (max-width: 1024px) {
+    .filters {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+    }
+
+    .filters, select, option {
+        display: block; 
+        font-size: 5 vw;
+        padding: 2rem;
+    }
+
+    .navbar_burger {
+        /* position: fixed; */
+        top: 1rem;
+        display: block;
+        right: 3rem;
+    }
+    .navbar_burger:hover {
+        cursor: pointer;
+    }
+
+    .burger-bar, .burger-bar::before, .burger-bar::after{
+        display: block;
+        width: 30px;
+        height: 3px;
+        position: relative;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .burger-bar::before, .burger-bar::after {
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+    .burger-bar::before{
+        transform: translateY(-12px);
+    }
+    .burger-bar::after{
+        transform: translateY(12px);
+    }
+}

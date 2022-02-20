@@ -1,0 +1,34 @@
+.esri-ui {
+    display: none;
+}
+
+#divChat {
+    width: 100%;
+}
+
+#divGuest {
+    width: 30%;
+}
+
+#messages {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#cercle {
+    border: 5px solid red;
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 45%;
+    margin-top: 6%;
+}
+
+@media (max-width:735px) {
+    #divGuestt {
+        border: none;
+    }
+}
