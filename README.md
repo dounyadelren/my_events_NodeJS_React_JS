@@ -1,6 +1,6 @@
 <h1 align="center">My Events</h1>
 <p align="center">service pouvant lister des évenements à partir d'une API publique et organiser des sorties entre amis</p>
-<p align="center">projet de groupe réalisé avec <a href="https://github.com/CorentinNrd">Corentin Nordmann</a> dans le cadre d'une formation</p>
+<p align="center">projet de groupe réalisé avec <a href="https://github.com/CorentinNrd" target="_blank">Corentin Nordmann</a> dans le cadre d'une formation</p>
 
 <h2>Les technos</h2>
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="node" />
