@@ -1,20 +1,25 @@
 <h1 align="center">My Events</h1>
 <p align="center">service pouvant lister des évenements à partir d'une API publique et organiser des sorties entre amis</p>
-<p align="center">projet de groupe réalisé avec <a href="https://github.com/CorentinNrd" target="_blank">Corentin Nordmann</a> dans le cadre d'une formation</p>
+<p align="center">projet de groupe réalisé avec <a href="https://github.com/CorentinNrd" target="_blank"><strong>Corentin Nordmann</strong></a> dans le cadre d'une formation</p>
 
+<img src="./img_readme_home.png" />
+<div align="center">
 <h2>Les technos</h2>
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="node" />
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 <p>API => <a href="https://public.opendatasoft.com/explore/dataset/evenements-publics-cibul/table/?disjunctive.tags&disjunctive.placename&disjunctive.city">OpenAgenda</a></p>
+ </div>
 
-<h2>Installation</h2>
+<h2 align="center">Installation</h2>
 A venir
 
-<h2>Présentation du projet</h2>
-<p>Lister les évènements d'un agenda public, dans un premier temps par votre position (par défaut Paris) avec possibilité de filtrer la liste par type d'évènement ou par lieu. Par ailleurs, chaque événement est détaillé sur une page dédiée avec la possibilité de détailler d'organiser des sorties entre amis</p>
-
-<p>Le site se présente en single page application, 100% responsive (bureau, tablette, téléphone)</p>
+<h2 align="center">Présentation du projet</h2>
+<div align="justify">
+  <p>Lister les évènements d'un agenda public, dans un premier temps par votre position (par défaut Paris) avec possibilité de filtrer la liste par type d'évènement    ou par lieu. Par ailleurs, chaque événement est détaillé sur une page dédiée avec la possibilité de détailler d'organiser des sorties entre amis</p>
+  <p>Le site se présente en single page application, 100% responsive (bureau, tablette, téléphone)</p>
+  <img src="./rwd.png" width="400px" height="auto" alt="rwd"/>
+ </div>
 
 <h3>Réseau social</h3>
 <p>Pour ce projet nous n'avons pas implémenté de connexion ou inscription classique, mais la possibilité de le faire via Facebook (uniquement pour le moment) chaque utilisateur a la possibilité de choisir un petit texte descriptif sur sa page profil et d'accéder à toutes les sorties qu'il a organisé ou auxquelles il participe privées ou publiques</p>
