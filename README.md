@@ -1,6 +1,6 @@
 <h1 align="center">My Events</h1>
 <p align="center">service pouvant lister des évenements à partir d'une API publique et organiser des sorties entre amis</p>
-<p align="center">projet de groupe réalisé avec <a href="https://github.com/CorentinNrd" target="_blank"><strong>Corentin Nordmann</strong></a> dans le cadre d'une formation</p>
+<p align="center">projet de groupe réalisé avec <a href="https://github.com/CorentinNrd" target="_blank"><strong>Corentin Nordmann</strong></a> dans le cadre de notre formation à la Web@cadémie by Epitech</p>
 
 <img src="./img_readme_home.png" />
 <div align="center">
@@ -12,7 +12,17 @@
  </div>
 
 <h2 align="center">Installation</h2>
-A venir
+Clonez ce dépot, l'application se divise en plein de sous-dossiers: c'est le dossier "client" qui va accueillir la partie React JS et le reste sera la partie serveur + base de donnée Node + MongoDB <br>
+Placez vous dans client et faites <code>npm install</code> ensuite remontez d'un dossier et placez vous dans my_events et refaites <code>npm install</code>. Vous avez récupéré toutes les dépendances nécéssaires au bon fonctionnement du projet.<br>
+<h3>La connexion à la bdd</h3>
+Commencez par créer un fichier .env à la racine de l'app que vous ajouterez immédiatement à votre .gitignore. Ce fichier comportement votre URL de connexion MongoDB ainsi que votre port. Ceux ci devraient ressembler à quelque chose comme ça: <br>
+<code>MONGO_URL = mongodb+srv://<i>ton_nom_de_user</i>:<i>ton_motdepasse</i>@cluster0.ylayl.mongodb.net/<i>ton_nom_de_db</i></code><br>
+<code>PORT=XXXX</code><br>
+Une fois terminé placez vous dans le dossier client et recréez un .env mais cette fois ci il accueillera votre url d'api facebook et votre url d'api météo. Par convention, les deux noms de variables doivent commencer par <code>REACT_APP_</code><br>
+Ainsi j'ai respectivement nommé les miennes <code>REACT_APP_API_FACEBOOK="xxxxxxxxxxxx"</code> et <code>REACT_APP_API_WEATHER="xxxxxxxxxxxxx”</code><br>
+Vous voilà prêt à utiliser <strong>My events</strong> ! <br>
+
+NB: nous n'avons pas choisi de mettre l'url de l'api OpenAgenda car elle est publique dans tous les cas.
 
 <h2 align="center">Présentation du projet</h2>
 <div align="justify">
